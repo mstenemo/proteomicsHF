@@ -1,58 +1,3 @@
-*{	//##############  startup things ############## (
-
-// 1. f2
-// 2. 4sxr
-// 3. f2
-clear 
-
-local DATA_FOLDER = "c:\Dropbox\Work\Uppsala\0ToDo\08NotSynced\Pr1\Pr1Datafiles\"
-cd `DATA_FOLDER'
-
-local TEMP_FOLDER = "c:\Dropbox\Work\Uppsala\0ToDo\08NotSynced\Pr1\Pr1ResultFiles\"
-local RESULT_FOLDER="c:\Dropbox\Work\Uppsala\0ToDo\08NotSynced\Pr1\Pr1ResultFiles\" 
-
-
-*}
-	//############End startup things ############## )
-
-*{	//#############  reference information ##############(
-
-*{	//##############  Upload Information  ############## (
-// 2016-12-09 15.59 	preparing upload in entire document 
-
-
-*}
-	//############End Upload Information  ############## )
-
-*{	//##############  study information ##############(
-// proteomicsHF version 2016-12-09 
-// primary analysis 
-	//discovery in PIVUS 
-		//Cox proportional hazards model adjusting for age and sex 
-		//5 % FDR multiple testing cutoff 
-	//Replicate in ULSAM 
-		//nominal p-value (0.05) cutoff 
-
-// Secondary analyses 
-	// combined cohort ("Meta-analysis") and adjust for each confounder 
-		// Visualization using heatmap  
-	// Proteins that remain significant in fully adjustedadjusted 
-		// forest plot 
-	// Determine which biomarkers are associated to systolic and/or diastolic function 
-	// Prediction model
-		// separate R document with Atherosclerosis Risk in Communities (ARIC) score 
-		// perform for either 
-			// all proteins 
-			// all replicated proteins
-			// all fully adjusted proteins
-
-*}
-	//############End study information ##############)
-
-
-*}
-	//########## End reference information ###########)
-
 *{ 	//############# PIVUS ##############(
 
 *{	//#############  prepare data for analysis ##############(
@@ -1614,3 +1559,31 @@ export excel using "C:/Dropbox/Work/Uppsala/0ToDo/project01/ResultsFiles/Main re
 
 *}
 	//######### END Sensitivity analysis of NIHF ##############)
+
+*{	//#############  reference information ##############(
+
+*{	//##############  study information ##############(
+// proteomicsHF version 2016-12-09 
+// primary analysis 
+	//discovery in PIVUS 
+		//Cox proportional hazards model adjusting for age and sex 
+		//5 % FDR multiple testing cutoff 
+	//Replicate in ULSAM 
+		//nominal p-value (0.05) cutoff 
+
+// Secondary analyses 
+	// combined cohort ("Meta-analysis") and adjust for each confounder 
+		// Visualization using heatmap  
+	// Proteins that remain significant in fully adjustedadjusted 
+		// forest plot 
+	// Determine which biomarkers are associated to systolic and/or diastolic function 
+	// Prediction model
+		// separate R document with Atherosclerosis Risk in Communities (ARIC) score 
+		// perform for 
+			// all proteins 
+
+*}
+	//############End study information ##############)
+
+*}
+	//########## End reference information ###########)
